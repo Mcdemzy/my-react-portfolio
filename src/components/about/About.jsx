@@ -37,10 +37,11 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Aspernatur, doloremque quam? Reiciendis soluta, cumque error velit
-            doloribus asperiores quasi mollitia officiis illo consequatur illum
-            ratione voluptate aliquid dolores excepturi eveniet.
+            I am a passionate Computer Science student and dedicated Full Stack
+            Web Developer, I'm on an exhilarating journey where technology and
+            creativity intertwine harmoniously. My path in the tech world has
+            been defined by a steadfast commitment to excellence and a
+            deep-rooted dedication to innovation.
           </p>
 
           <a href="#contact" className="btn btn-primary">
