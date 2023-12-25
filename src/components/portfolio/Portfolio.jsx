@@ -34,7 +34,7 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: "Hi-Clean - The Best Cleaning Services in Nigerian",
+    title: "Hi-Clean - The Best Cleaning Services in Nigeria",
     github: "https://github.com",
     demo: "https://www.hicleanservices.com.ng/",
   },
@@ -48,7 +48,7 @@ const data = [
   {
     id: 6,
     image: IMG6,
-    title: "Bit Digital University get digital freedom",
+    title: "Bit Digital University - Get Digital Freedom",
     github: "https://github.com",
     demo: "https://bitdigitaluniversity.com/",
   },
