@@ -1,7 +1,5 @@
 header {
-  /* height: 100vh; */
   padding-top: 2rem;
-  /* overflow: hidden; */
 }
 
 .header__container {
@@ -43,13 +41,6 @@ header {
   margin: auto;
   border-radius: 12rem 12rem 0 0;
   margin-top: 10px;
-  /* height: 30rem; */
-  /* position: absolute; */
-  /* left: calc(50% - 11rem); */
-
-  /* 
-  border-radius: 12rem 12rem 0 0;
-  background: red; */
 }
 
 /* =============== SCROLL DOWN ============== */
