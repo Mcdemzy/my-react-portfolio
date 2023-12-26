@@ -1,10 +1,8 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-// import IMG4 from "../../assets/portfolio4.jpg";
-// import IMG5 from "../../assets/portfolio5.png";
+import IMG1 from "../../assets/gheist.png";
+import IMG2 from "../../assets/frmc.PNG";
+import IMG3 from "../../assets/kps.PNG";
 import IMG5 from "../../assets/bdu.png";
 import IMG6 from "../../assets/coloby.png";
 import IMG4 from "../../assets/hiclean.png";
@@ -41,16 +39,16 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: "Coloby - Create, Collaborate and Innovate",
+    title: "Bit Digital University - Get Digital Freedom",
     github: "https://github.com",
-    demo: "https://colobyapp.netlify.app/",
+    demo: "https://bitdigitaluniversity.com/",
   },
   {
     id: 6,
     image: IMG6,
-    title: "Bit Digital University - Get Digital Freedom",
+    title: "Coloby - Create, Collaborate and Innovate",
     github: "https://github.com",
-    demo: "https://bitdigitaluniversity.com/",
+    demo: "https://colobyapp.netlify.app/",
   },
 ];
 
