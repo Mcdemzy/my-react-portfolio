@@ -1,12 +1,36 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
-// import { useRef } from "react";
-// import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+  const [messageSent, setMessageSent] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_v8tcnqi",
+        "template_czu9ceo",
+        form.current,
+        "Bv1hcOwU8VLedk5Xt"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setMessageSent(true); // Set the state to true when the message is sent
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -46,7 +70,7 @@ const Contact = () => {
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
@@ -64,6 +88,14 @@ const Contact = () => {
             Send Message
           </button>
         </form>
+
+        {/* Display popup when message is sent */}
+        {messageSent && (
+          <div className="popup">
+            <p>Message Sent!</p>
+            <button onClick={() => setMessageSent(false)}>Close</button>
+          </div>
+        )}
       </div>
     </section>
   );
