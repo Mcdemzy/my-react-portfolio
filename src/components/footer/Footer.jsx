@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css";
 import { BsLinkedin } from "react-icons/bs";
 import { RiTwitterXFill } from "react-icons/ri";
-import { FiInstagram } from "react-icons/fi";
+import { IoCallOutline } from "react-icons/io5";
 
 const Footer = () => {
   return (
@@ -39,11 +39,11 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/ademola-adeyemo" target="_blank">
           <BsLinkedin />
         </a>
+        <a href="tel:09135451448" target="_blank">
+          <IoCallOutline />
+        </a>
         <a href="https://twitter.com/Mc__Demzy" target="_blank">
           <RiTwitterXFill />
-        </a>
-        <a href="https://www.instagram.com/mc.demzy/" target="_blank">
-          <FiInstagram />
         </a>
       </div>
 
