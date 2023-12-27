@@ -1,9 +1,9 @@
 import React from "react";
 import "./testimonials.css";
-import AVTR1 from "../../assets/avatar1.jpg";
-import AVTR2 from "../../assets/avatar2.jpg";
-import AVTR3 from "../../assets/avatar3.jpg";
-import AVTR4 from "../../assets/avatar4.jpg";
+import AVTR1 from "../../assets/hicleanlogo.jpg";
+import AVTR2 from "../../assets/colobylogo.png";
+import AVTR3 from "../../assets/frmclogo.png";
+import AVTR4 from "../../assets/kpslogo.jpg";
 
 // import Swiper core and required modules
 import { Pagination } from "swiper/modules";
@@ -16,19 +16,19 @@ import "swiper/css/pagination";
 const data = [
   {
     avatar: AVTR1,
-    name: "Omojola Zion",
+    name: "Hi-Clean Cleaning Services",
     review:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente abdolores molestiae illum cumque optio voluptate voluptates earum praesentium sit ad tenetur reprehenderit mollitia non dolore atque consectetur, ipsa odio.",
   },
   {
     avatar: AVTR2,
-    name: "Omojola Zion",
+    name: "Coloby",
     review:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente abdolores molestiae illum cumque optio voluptate voluptates earum praesentium sit ad tenetur reprehenderit mollitia non dolore atque consectetur, ipsa odio.",
   },
   {
     avatar: AVTR3,
-    name: "Omojola Zion",
+    name: "Fortune Royal Multiconcepts",
     review:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente abdolores molestiae illum cumque optio voluptate voluptates earum praesentium sit ad tenetur reprehenderit mollitia non dolore atque consectetur, ipsa odio.",
   },
