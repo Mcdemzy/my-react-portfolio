@@ -18,25 +18,25 @@ const data = [
     avatar: AVTR1,
     name: "Hi-Clean Cleaning Services",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente abdolores molestiae illum cumque optio voluptate voluptates earum praesentium sit ad tenetur reprehenderit mollitia non dolore atque consectetur, ipsa odio.",
+      "Adeyemo Ademola transformed our vision into reality! His skills as a Full Stack Web Developer were evident in the beautifully designed and highly functional website for Hi-Clean Cleaning Services. With a keen eye for detail and a collaborative approach, Adeyemo ensured a smooth and enjoyable process. Our online presence has soared, thanks to his dedication and talent. Highly recommended for anyone seeking a skilled Full Stack Web Developer",
   },
   {
     avatar: AVTR2,
     name: "Coloby",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente abdolores molestiae illum cumque optio voluptate voluptates earum praesentium sit ad tenetur reprehenderit mollitia non dolore atque consectetur, ipsa odio.",
+      "Adeyemo Ademola has been instrumental at Coloby, bringing innovative solutions and technical prowess to our startup. His collaborative spirit and commitment to excellence have made a significant impact on our projects. Looking forward to continued success together!",
   },
   {
     avatar: AVTR3,
     name: "Fortune Royal Multiconcepts",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente abdolores molestiae illum cumque optio voluptate voluptates earum praesentium sit ad tenetur reprehenderit mollitia non dolore atque consectetur, ipsa odio.",
+      "Adeyemo Ademola transformed our online presence! His web development expertise elevated our site for Fortune Royal Multiconcepts, creating a seamless and engaging user experience. A standout professional in the field!",
   },
   {
     avatar: AVTR4,
-    name: "Omojola Zion",
+    name: "Kasmoz Private School",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente abdolores molestiae illum cumque optio voluptate voluptates earum praesentium sit ad tenetur reprehenderit mollitia non dolore atque consectetur, ipsa odio.",
+      "Adeyemo Ademola has played a pivotal role in transforming Kasmoz Private School's online presence. His expertise and creative flair have given life to our website, effectively capturing the essence of our institution. The website design reflects the academic excellence and vibrant atmosphere of KPS. We appreciate Adeyemo's commitment to delivering a website that aligns seamlessly with our educational values. It has been a pleasure collaborating on this project, and we look forward to continued partnership.",
   },
 ];
 
